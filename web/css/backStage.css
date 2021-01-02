@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    line-height: 1.5;
+    text-align: left;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.main{
+    position: relative;
+}
+.nav-white{
+    background-color: #17a2b8;
+    z-index: 100;
+    margin-left: 250px;
+    position: relative;
+    display: flex;
+}
+
+.nav-bar{
+    margin-left: auto!important;
+    margin-bottom: 0px;
+    list-style: none;
+}
+.nav-right{
+    bottom: 5px;
+    margin: 0;
+    position: relative;
+}
+.nav-font{
+    font-size: 1em;
+    font-weight: 500;
+    padding: 4px 4px;
+    position: relative;
+    color: #fff;
+    background-color: #dc3545;
+}
+.asdie{
+    height: inherit;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1001;
+    width: 250px;
+    display: block;
+}
+.sid-black{
+    background-color: #343a40;
+}
+.back-name{
+    border-bottom: 1px solid #4b545c;
+    color: rgba(255,255,255,.8);
+    display: block;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding: .8125rem .5rem;
+    white-space: nowrap;
+}
+.back-name span{
+    font-weight: 300;
+}
+.sidebar{
+    padding:0 10px 0 10px;
+}
+.sidebar nav{
+    padding-left: 0;
+    margin-top: 5px;
+    display: block;
+}
+.flx-co{
+    flex-direction: column!important;
+    position: relative;
+    padding-left: 0;
+}
+.nav-link{
+    display: block;
+    padding: .5rem 1rem;
+    margin-bottom: .2rem;
+    border-radius: .25rem;
+}
+.flx-co>.nav-bb>.nav-link.active{
+    position: relative;
+    padding: .5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.flx-co p{
+    display: inline-block;
+    margin: 0
+}
+.flx-co p>.right{
+    position: absolute;
+    right: 1em;
+    top: .7em;
+}
+.flx-co .nav-child{
+    display: block;
+    list-style: none;
+    padding: 0;
+}
+.nav-bb .nav-link{
+    color: #c2c7d0;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.nav-child>.nav-bb .nav-link{
+    font-size: 15px;
+}
+.nav-child>.nav-bb>.nav-link.active{
+    background-color: rgba(255,255,255,.9);
+    color: #343a40;
+}
+.nav-head{
+    padding: 1.7em 1em .5em;
+    color: #d0d4db;
+}

@@ -1,0 +1,301 @@
+.navbar {
+    position: relative;
+    min-height: 70px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+.nav li a{
+    font-size: 15px;
+}
+.navbar-header>span{
+    font-size: 15px;
+    margin-left: .5em;
+    padding-left: 1em;
+    font-weight: 600;
+    line-height: 3.5em;
+    border-left: 1px solid black;
+    color: red;
+}
+.nav li a {
+    font-size: 18px;
+}
+
+.container>.navbar-header {
+    margin: 10px 20px;
+}
+
+/*下拉列表*/
+.glonav{
+    position: relative;
+}
+.drop-list{
+    position: absolute;
+    text-align: center;
+    max-width: 150px;
+    background-color: #eeeeee;
+    display: none;
+    z-index: 100;
+    border-radius: 10px;
+    padding: 0;
+}
+.drop-list li{
+    font-size: 20px;
+    list-style: none;
+}
+.drop-list a:hover{
+    color: black;
+}
+.glonav ul li>a {
+    position: relative;
+    display: block;
+    white-space: nowrap;
+    padding: .6em 1.5em;
+}
+
+.g-bd {
+    width: 980px;
+    min-height: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+}
+
+.g-wrap {
+    padding: 40px;
+}
+
+.m-pro {
+    margin-bottom: 40px;
+}
+
+.f-cb:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+}
+
+.f-pr {
+    float: left;
+    width: 180px;
+    margin-right: 40px;
+}
+
+.m-pro dd {
+    float: left;
+    width: 670px;
+}
+
+dt img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    padding: 3px;
+    background: #fff;
+    border: 1px solid #d5d5d5;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.name {
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.f-fl {
+    float: left;
+    padding-bottom: 3px;
+}
+
+.tit {
+    float: left;
+    margin-top: 3px;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.edit {
+    float: right;
+    margin-top: 4px;
+}
+
+.riqi {
+    margin-bottom: 5px;
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+.u-title {
+    height: 40px;
+    border-bottom: 2px solid #c20c0c;
+}
+
+.u-title h3 {
+    float: left;
+
+}
+
+.u1 h3 {
+    margin: 0;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.gedan {
+    margin: 20px 0 0 -50px;
+}
+
+.gedan li {
+    overflow: hidden;
+    float: left;
+    display: inline-block;
+    padding: 0 0 50px 80px;
+    line-height: 1.4;
+}
+
+.cover {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    display: block;
+    border: 2px solid black;
+}
+
+.cover img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+li p>.tit1 {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+#eBackground,#background{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(0,0,0,.6);
+    display: none;
+    text-align: center;
+    white-space: nowrap;
+}
+#background2,#background1{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: auto;
+    margin: 30px auto;
+    top: 0;
+    text-align: center;
+    white-space: normal;
+    word-break: break-all;
+}
+#eClose-button,#close-button{
+    position: absolute;
+    cursor: pointer;
+    right: auto;
+    left: 10px;
+    color: black;
+    font-size: 40px;
+    z-index: 100;
+}
+#eBackground:before,#background:before{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+}
+.verify{
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+
+}
+.verify-form{
+    height: 300px;
+    overflow: hidden;
+    width: 600px;
+}
+#background .verify-form{
+    height: 500px;
+    overflow: hidden;
+    width: 600px;
+}
+.verify-login{
+    position: relative;
+    width: 600px;
+    height: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+#login-con2,#login-con{
+    position: relative;
+    width: 500px;
+    height: 100%;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.login-font{
+    margin-bottom: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.cur-choice{
+    font-weight: 700;
+    color: #ff410f
+
+}
+.login-font span:first-of-type{
+    margin-right: 30px;
+}
+.form-set{
+    margin: 30px 0;
+}
+#login-con2 form label,#login-con form label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #7b7e88;
+}
+.form-set input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    outline: none;
+}
+.form-set .loBtn{
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.form-set .loBtn:hover{
+    background-color: #d0d0d0;
+}
+.hook{
+    display: none;
+}

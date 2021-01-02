@@ -1,0 +1,396 @@
+body{
+    margin: 0;
+}
+*,ul,li,a{
+    text-decoration: none;
+    list-style: none;
+}
+div{
+    display: block;
+}
+.setcenter{
+    padding: 0 6.4em;
+    margin: 0 auto;
+    max-width: 70em;
+    overflow: hidden;
+}
+#top{
+    position: fixed;
+    width: 100%;
+    background: #242424;
+    border-bottom: 1px solid #000;
+    top: 0;
+    z-index: 100;
+}
+#top #header{
+    padding: 1em 0 1em;
+}
+#top #header .logo{
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+#top #header .logo>a{
+    font-size: 30px;
+    font-family: "楷体";
+}
+#top #header .logo>span{
+    margin-left: .25em;
+    padding-left: 1em;
+    font-weight: 200;
+    line-height: 2em;
+    border-left: 1px solid #dae0f2;
+}
+#globalNav {
+    position: absolute;
+    top: 5px;
+    left: 38em;
+}
+.aaa ul{
+    margin: 0;
+    padding: 0;
+}
+#globalNav >li{
+    position: relative;
+    float: left;
+    padding: 0 .5em;
+}
+#globalNav>li>a{
+    position: relative;
+    display: inline-block;
+    color: white;
+    padding: 1.2em 1em;
+}
+#globalNav li a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black;
+}
+.in{
+    left: 75em;
+    top: 20px;
+    position: absolute;
+}
+.in input{
+    outline: none;
+    border-radius: 10px;
+    height: 35px;
+}
+.in a{
+    color: gray;
+    margin-left: 1em;
+}
+#background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(0,0,0,.6);
+    display: none;
+    text-align: center;
+    white-space: nowrap;
+}
+#background1 {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: auto;
+    margin: 30px auto;
+    top: 0;
+    text-align: left;
+    white-space: normal;
+    word-break: break-all;
+}
+#close-button {
+    position: absolute;
+    cursor: pointer;
+    right: auto;
+    left: 10px;
+    color: #fff;
+    font-size: 40px;
+    z-index: 100;
+}
+#background:before{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+}
+.verify{
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+
+}
+.verify-form{
+    height: 400px;
+    overflow: hidden;
+    width: 600px;
+}
+.verify-pic{
+    float: left;
+    position: relative;
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+    background: url("../images/musicPic.png") no-repeat no-repeat;
+}
+.verify-login{
+    position: relative;
+    float: right;
+    width: 400px;
+    height: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+
+}
+#login-con{
+    position: relative;
+    width: 340px;
+    height: 100%;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.login-font{
+    margin-bottom: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.cur-choice{
+    font-weight: 700;
+    color: #ff410f
+}
+.login-font span:first-of-type{
+    margin-right: 30px;
+}
+.form-set{
+    margin: 30px 0;
+}
+#login-con form label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #7b7e88;
+}
+.form-set input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    outline: none;
+}
+.form-set .loBtn{
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.form-set .loBtn:hover{
+    background-color: #d0d0d0;
+}
+.hook{
+    display: none;
+}
+
+
+.caro{
+    background-color: #e1e5e8;
+}
+.caro .wrap{
+    position: relative;
+    width: 1080px;
+    height: 420px;
+    margin: 0 auto;
+}
+.mtop{
+    position: relative;
+    height: 70px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
+}
+.wrap iframe{
+    width: 1080px;
+    height: 420px;
+    border: none;
+}
+.mContent{
+    width: 1080px;
+    min-height: 1200px;
+    margin: 0 auto;
+    border: 1px solid #d3d3d3;
+}
+.mg{
+    float: left;
+    width: 100%;
+    margin-right: -250px;
+}
+.mg-left{
+    margin-right:250px ;
+}
+.wrap3{
+    padding: 20px 20px 40px;
+}
+.re-h{
+    height: 33px;
+    padding: 0 10px 0 0;
+    background-position: -225px -156px;
+    border-bottom: 2px solid #C10D0C;
+}
+.re-h .re-title{
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+}
+.listUl{
+    /* margin: 20px 0 0 -40px; */
+    padding: 0;
+}
+.listUl:after{
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.recom .listUl li{
+    width: 200px;
+    height: 200px;
+    padding-left: 42px;
+}
+.listUl li{
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 0 30px 50px;
+    line-height: 1.4;
+}
+.list{
+    position: relative;
+    display: block;
+}
+.list-1{
+    width: 150px;
+    height: 150px;
+}
+.list img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.listUl li .list-p{
+    margin: 8px 0 3px;
+    font-size: 14px;
+}
+.listUl li .list-a{
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    color: black;
+}
+.l-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 27px;
+    background-position: 0 -537px;
+    color: #ccc;
+}
+.play-icon{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    width: 16px;
+    height: 17px;
+    background-position: 0 0;
+    background: url("../images/play.png") no-repeat;
+}
+.list .l-bottom{
+    background: url("../images/coverall.png") no-repeat;
+}
+.list .l-sp{
+    color: black;
+    float: left;
+    margin: 5px 5px 0 7px;
+}
+
+.songBlist{
+    height: 472px;
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+.songBlist .bl{
+    float: left;
+    width: 230px;
+    padding-left: 70px;
+}
+dl,dt,dd{
+    padding: 0;
+    margin: 0;
+}
+.songBlist .bl-top{
+    height: 100px;
+    padding: 20px 0 0 19px;
+}
+.bl-img{
+    float: left;
+    display: inline;
+    width: 80px;
+    height: 80px;
+}
+.bl-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.songBlist .tit{
+    float: left;
+    width: 116px;
+    margin: 6px 0 0 10px;
+}
+.songBlist ol li{
+    color: black;
+    height: 32px;
+}
+.songBlist ol .no{
+    float: left;
+    position: relative;
+    width: 35px;
+    height: 32px;
+    margin-left: -35px;
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+}
+.list .msk{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/coverall.png") no-repeat no-repeat;
+}
+.mg2{
+    position: relative;
+    float: right;
+    width: 250px;
+    zoom: 1;
+}
+.userNota{
+    height: 126px;
+    padding-top: 0;
+}
+.userNota .note{
+    width: 205px;
+    margin: 0 auto;
+    padding: 16px 0;
+    line-height: 22px;
+    color: #4a4746;
+}

@@ -1,0 +1,292 @@
+#background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(0,0,0,.6);
+    display: none;
+    text-align: center;
+    white-space: nowrap;
+}
+#background1 {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: auto;
+    margin: 30px auto;
+    top: 0;
+    text-align: left;
+    white-space: normal;
+    word-break: break-all;
+}
+#close-button {
+    position: absolute;
+    cursor: pointer;
+    right: auto;
+    left: 10px;
+    color: #fff;
+    font-size: 40px;
+    z-index: 100;
+}
+#background:before{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+}
+.verify{
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+
+}
+.verify-form{
+    height: 400px;
+    overflow: hidden;
+    width: 600px;
+}
+.verify-pic{
+    float: left;
+    position: relative;
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+    background: url("../images/musicPic.png") no-repeat no-repeat;
+}
+.verify-login{
+    position: relative;
+    float: right;
+    width: 400px;
+    height: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+
+}
+#login-con{
+    position: relative;
+    width: 340px;
+    height: 100%;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.login-font{
+    margin-bottom: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.cur-choice{
+    font-weight: 700;
+    color: #ff410f
+}
+.login-font span:first-of-type{
+    margin-right: 30px;
+}
+.form-set{
+    margin: 30px 0;
+}
+#login-con form label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #7b7e88;
+}
+.form-set input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    outline: none;
+}
+.form-set .loBtn{
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.form-set .loBtn:hover{
+    background-color: #d0d0d0;
+}
+.hook{
+    display: none;
+}
+
+.carousel-inner>.item>img{
+    display: block;
+    width: 1200px;
+    height: 420px;
+    margin: 0 auto;
+
+}
+.carousel {
+    position: relative;
+    margin-bottom: 60px;
+}
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container>.navbar-header {
+    margin: 0 20px;
+}
+.navbar {
+    position: relative;
+    min-height: 70px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+.myCon{height: 70px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.nav li a{
+    font-size: 15px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: gray;
+}
+.back-top {
+    position: fixed;
+    width: 50px;
+    bottom: 5%;
+    right: 0px;
+}
+.navbar-header>span{
+    font-size: 15px;
+    margin-left: .5em;
+    padding-left: 1em;
+    font-weight: 600;
+    line-height: 3.5em;
+    border-left: 1px solid black;
+    color: red;
+}
+.nav li a {
+    font-size: 18px;
+}
+.nav li a {
+    font-size: 18px;
+}
+.container>.navbar-header {
+    margin: 10px 20px;
+}
+
+
+.listUl{
+     margin: 20px 0 0 -40px;
+    padding: 0;
+}
+.listUl:after{
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.listUl li{
+    width: 200px;
+    height: 200px;
+    padding-left: 42px;
+}
+.listUl li{
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 0 30px 50px;
+    line-height: 1.4;
+}
+.listUl li .list-p{
+    margin: 8px 0 3px;
+    font-size: 14px;
+}
+.listUl li .list-a{
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    color: black;
+}
+
+.songBlist{
+ /*   height: 472px;*/
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.songBlist .bl{
+    float: left;
+    width: 300px;
+    /*padding-left: 70px;*/
+}
+dl,dt,dd{
+    padding: 0;
+    margin: 0;
+}
+.songBlist .bl-top{
+    height: 100px;
+    padding: 20px 0 0 19px;
+}
+.bl-img{
+    float: left;
+    display: inline;
+    width: 80px;
+    height: 80px;
+}
+.bl-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.songBlist .tit{
+    float: left;
+    width: 116px;
+    margin: 6px 0 0 10px;
+}
+.songBlist ol li{
+    color: black;
+    height: 32px;
+}
+.songBlist ol .no{
+    float: left;
+    position: relative;
+    width: 35px;
+    height: 32px;
+    margin-left: -35px;
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+}
+
+/*下拉列表*/
+.glonav{
+    position: relative;
+}
+.drop-list{
+    position: absolute;
+    text-align: center;
+    max-width: 150px;
+    background-color: #eeeeee;
+    display: none;
+    z-index: 100;
+    border-radius: 10px;
+    padding: 0;
+}
+.drop-list li{
+    font-size: 20px;
+    list-style: none;
+}
+.drop-list a:hover{
+    color: black;
+}
+.glonav ul li>a {
+    position: relative;
+    display: block;
+    white-space: nowrap;
+    padding: .6em 1.5em;
+}

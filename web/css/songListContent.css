@@ -1,0 +1,480 @@
+.navbar-header>span{
+    font-size: 15px;
+    margin-left: .5em;
+    padding-left: 1em;
+    font-weight: 600;
+    line-height: 3.5em;
+    border-left: 1px solid black;
+    color: red;
+}
+.container>.navbar-header {
+    margin: 10px 20px;
+}
+.nav li a {
+    font-size: 18px;
+}
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.container>.navbar-header {
+    margin: 0 20px;
+}
+.navbar {
+    position: relative;
+    min-height: 70px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+.myCon{height: 70px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.nav li a{
+    font-size: 15px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: gray;
+}
+.nav li a {
+    font-size: 18px;
+}
+
+
+.g-mn4{
+    float: left;
+    width: 100%;
+    margin-right: -270px;
+}
+.g-mn4c{
+    margin-right: 20px;
+}
+.g-wrap6 {
+    padding: 47px 30px 40px 39px;
+}
+.m-info .cover {
+    float: left;
+    position: relative;
+    display: inline;
+    margin: 0  -220px 0 0;
+    width: 200px;
+    height: 200px;
+}
+.m-info .cover>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(218, 218, 218);
+
+}
+.m-info .cnt{
+    float: right;
+    width: 100%;
+}
+.m-info .cntc{
+    margin-left: 230px;
+}
+.m-info .hd{
+    position: relative;
+    margin: 0 0 12px;
+    line-height: 24px;
+}
+.m-info .hd h2 {
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.m-info .tit {
+   /* margin-left: 64px;*/
+    position: relative;
+}
+.g-bd4{
+    width: 980px;
+    min-height: 1600px;
+    margin: 0 auto;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+}
+.f-cb:after {
+    /* clear: both; */
+    content: '.';
+    display: block;
+    /* height: 0; */
+    /* visibility: hidden; */
+}
+.m-info .create{
+    margin: 0 0 20px;
+    line-height: 35px;
+}
+.m-info .tags{
+    margin: 25px 0 5px;
+    line-height: 22px;
+}
+.m-info .tags b {
+    float: left;
+}
+i{
+    font-style: normal;
+    text-align: left;
+}
+.n-songtb{
+    margin-top: 30px;
+}
+.u-title{
+    height: 33px;
+    border-bottom: 2px solid #c20c0c;
+}
+.u-title h3{
+    padding: 0;
+    font-size: 20px;
+    line-height: 28px;
+    float: left;
+    font-weight: normal;
+    margin: 0;
+}
+.u-title .sub{
+    float: left;
+    margin: 10px 0 0 20px;
+}
+.m-table {
+    width: 100%;
+    border: 1px solid #d9d9d9;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+.m-table .w1{
+    width: 74px;
+}
+.m-table th {
+    height: 38px;
+    background-color: #f7f7f7;
+    background-position: 0 0;
+    vertical-align: top;
+    text-align: left;
+    font-weight: normal;
+    color: #666;
+}
+.m-table th .wp {
+    height: 18px;
+    line-height: 18px;
+    padding: 8px 10px;
+}
+.m-table .even td {
+    background-color: #f7f7f7;
+}
+.m-table td {
+    padding: 6px 10px;
+    line-height: 18px;
+    text-align: left;
+}
+
+
+.broadcast{
+    position: fixed;
+    bottom: -2px;
+    z-index: 10;
+    left: 150px;
+}
+#music-play>div {
+    float: left;
+}
+#progress {
+    width: 65%;
+    height: 30px;
+    padding: 10px;
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.bg-hide{
+    height: 57px;
+    background-color: #dddddd;
+    box-shadow: 1px  -5px 10px  #888888;
+    padding: 5px 10px;
+    border: 1px solid #bfbfbf;
+}
+.play{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.circleOne {
+    margin-top: -20px;
+    margin-left: 90px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.circleOne.click{
+    background-color: red;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(0,0,0,.6);
+    display: none;
+    text-align: center;
+    white-space: nowrap;
+}
+#background1 {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: auto;
+    margin: 30px auto;
+    top: 0;
+    text-align: left;
+    white-space: normal;
+    word-break: break-all;
+}
+#close-button {
+    position: absolute;
+    cursor: pointer;
+    right: auto;
+    left: 10px;
+    color: #fff;
+    font-size: 40px;
+    z-index: 100;
+}
+#background:before{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+}
+.verify{
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+
+}
+.verify-form{
+    height: 400px;
+    overflow: hidden;
+    width: 600px;
+}
+.verify-pic{
+    float: left;
+    position: relative;
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+    background: url("../images/musicPic.png") no-repeat no-repeat;
+}
+.verify-login{
+    position: relative;
+    float: right;
+    width: 400px;
+    height: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+
+}
+#login-con{
+    position: relative;
+    width: 340px;
+    height: 100%;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.login-font{
+    margin-bottom: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.cur-choice{
+    font-weight: 700;
+    color: #ff410f
+}
+.login-font span:first-of-type{
+    margin-right: 30px;
+}
+.form-set{
+    margin: 30px 0;
+}
+#login-con form label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #7b7e88;
+}
+.form-set input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    outline: none;
+}
+.form-set .loBtn{
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.form-set .loBtn:hover{
+    background-color: #d0d0d0;
+}
+.hook{
+    display: none;
+}
+.classify .cntc{
+    margin-left: 10px;
+}
+.classify b{
+    font-size: 20px;
+    margin-left: 30px;
+    font-weight: 500;
+    color: lightslategrey;
+}
+
+.comment {
+    margin-top: 50px;
+}
+
+.Input_Box {
+    width: 495px;
+    height: 160px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.Input_Box>textarea {
+    width: 485px;
+    height: 111px;
+    padding: 5px;
+    outline: none;
+    border: 0px solid #fff;
+    resize: none;
+    font: 13px "微软雅黑", Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.Input_Foot {
+    width: 100%;
+    height: 35px;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    position: absolute;
+}
+
+.postBtn {
+    float: right;
+    font: 13px "微软雅黑", Arial, Helvetica, sans-serif;
+    color: #808080;
+    padding: 9px 20px 7px 20px;
+    border-left: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 0 0 5px 0;
+}
+
+.postBtn:hover {
+    color: #333;
+    background-color: #efefef;
+}
+
+.co-h4 {
+    position: relative;
+    top: 1px;
+    height: 20px;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.com-itm {
+    padding: 15px 0;
+    border-top: 1px dotted #ccc;
+    margin-bottom: 10px
+}
+
+.com-itm .head {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-right: -100px;
+}
+
+.head img {
+    vertical-align: middle;
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-right: -100px;
+}
+
+.com-itm .cont {
+    margin-left: 80px;
+}
+.cont .specific {
+    word-break: break-word;
+    width: 100%;
+    overflow: hidden;
+    line-height: 25px;
+    font-size:18px;
+}
+
+.specific a {
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.riqi {
+    margin-top: 42px;
+    text-align: right;
+}
+
+.sp-riqi {
+    float: left;
+    margin: 0 !important;
+}
+
+/*下拉列表*/
+.glonav{
+    position: relative;
+}
+.drop-list{
+    position: absolute;
+    text-align: center;
+    max-width: 150px;
+    background-color: #eeeeee;
+    display: none;
+    z-index: 100;
+    border-radius: 10px;
+    padding: 0;
+}
+.drop-list li{
+    font-size: 20px;
+    list-style: none;
+}
+.drop-list a:hover{
+    color: black;
+}
+.glonav ul li>a {
+    position: relative;
+    display: block;
+    white-space: nowrap;
+    padding: .6em 1.5em;
+}
+
+
